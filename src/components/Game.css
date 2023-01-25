@@ -1,0 +1,156 @@
+.game h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: #DBBEA1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.game h3 {
+    font-size: 1.5em;
+}
+
+.points {
+    background-color: #DB7F67;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vmin;
+    margin-bottom: 1.5vmin;
+    max-width: fit-content;
+    padding: 0 3vmin;
+    border-radius: 15px;
+    color: #3F292B;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tip {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #DB7F67;
+}
+
+.tip span {
+    font-weight: 700;
+}
+
+.tentativas {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #DBBEA1;
+}
+
+.tentativas span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0.5vmin;
+}
+
+.buttonTry {
+    font-size: 1.5em;
+    padding: 1.5vmin 3vmin;
+}
+
+.game input {
+    max-width: 10vmin;
+    min-height: 10vmin;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3F292B;
+    background-color: #DBBEA1;
+}
+
+.game input::selection {
+    background-color: #3F292B;
+    color: #DBBEA1;
+}
+
+.game form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonGame {
+    font-size: 1em;
+    background-color: transparent;
+    border: #DBBEA1 2px solid;
+}
+
+.buttonGame:hover {
+    color: #3F292B;
+}
+
+.wrongLetterContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #DBBEA1;
+}
+
+.wrongLetterContainer span {
+    margin-left: 2vmin;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.wordContainer {
+    max-width: 90vw;
+    margin: 6vmin;
+    padding: 3vmin;
+    border: #DB7F67 5px solid;
+    border-radius: 20px;
+    font-size: 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+}
+
+.letter {
+    background-color: #DBBEA1;
+    width: 1.2em;
+    height: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1vmin;
+    color: #3F292B;
+}
+
+.blankSquare {
+    background-color: #DBBEA1;
+    width: 1.2em;
+    height: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1vmin;
+    color: #3F292B;
+}
+
+.letterContainer {
+    color: #DBBEA1;
+}
