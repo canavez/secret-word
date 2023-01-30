@@ -10,4 +10,4 @@ Secret Word is a simple word discovery game where you try to guess letter by let
 
 
 ## Technologies
-[React.js](https://reactjs.org/)\
+[React.js](https://reactjs.org/)
